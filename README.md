@@ -38,6 +38,11 @@ You can save any class conforming NSCoding.
         print(value!.name) // "あんこう"
 ```
 
+## Requirements
+
+- Swift4
+- Xcode9.3
+
 ## Reference
 
 [Swift 4 で UserDefaults を簡単に扱う - ユニファ開発者ブログ](http://tech.unifa-e.com/entry/2018/01/09/143231)
