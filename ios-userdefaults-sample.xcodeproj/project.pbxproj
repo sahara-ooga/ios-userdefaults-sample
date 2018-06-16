@@ -13,6 +13,7 @@
 		DF9CC15220D4A61200AE4090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9CC15120D4A61200AE4090 /* Assets.xcassets */; };
 		DF9CC15520D4A61200AE4090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9CC15320D4A61200AE4090 /* LaunchScreen.storyboard */; };
 		DF9CC16020D4A61200AE4090 /* ios_userdefaults_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9CC15F20D4A61200AE4090 /* ios_userdefaults_sampleTests.swift */; };
+		DFBA52C920D4B4D1007CDB43 /* UserDefaults+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA52C820D4B4D1007CDB43 /* UserDefaults+Subscript.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DF9CC15B20D4A61200AE4090 /* ios-userdefaults-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-userdefaults-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9CC15F20D4A61200AE4090 /* ios_userdefaults_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_userdefaults_sampleTests.swift; sourceTree = "<group>"; };
 		DF9CC16120D4A61200AE4090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBA52C820D4B4D1007CDB43 /* UserDefaults+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Subscript.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,11 @@
 		DF9CC14920D4A60F00AE4090 /* ios-userdefaults-sample */ = {
 			isa = PBXGroup;
 			children = (
+				DFBA52CB20D4B4EB007CDB43 /* Support Files */,
 				DF9CC14A20D4A61000AE4090 /* AppDelegate.swift */,
 				DF9CC14C20D4A61000AE4090 /* ViewController.swift */,
 				DF9CC14E20D4A61000AE4090 /* Main.storyboard */,
-				DF9CC15120D4A61200AE4090 /* Assets.xcassets */,
-				DF9CC15320D4A61200AE4090 /* LaunchScreen.storyboard */,
-				DF9CC15620D4A61200AE4090 /* Info.plist */,
+				DFBA52C820D4B4D1007CDB43 /* UserDefaults+Subscript.swift */,
 			);
 			path = "ios-userdefaults-sample";
 			sourceTree = "<group>";
@@ -94,6 +95,16 @@
 				DF9CC16120D4A61200AE4090 /* Info.plist */,
 			);
 			path = "ios-userdefaults-sampleTests";
+			sourceTree = "<group>";
+		};
+		DFBA52CB20D4B4EB007CDB43 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF9CC15120D4A61200AE4090 /* Assets.xcassets */,
+				DF9CC15320D4A61200AE4090 /* LaunchScreen.storyboard */,
+				DF9CC15620D4A61200AE4090 /* Info.plist */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFBA52C920D4B4D1007CDB43 /* UserDefaults+Subscript.swift in Sources */,
 				DF9CC14D20D4A61000AE4090 /* ViewController.swift in Sources */,
 				DF9CC14B20D4A61000AE4090 /* AppDelegate.swift in Sources */,
 			);
