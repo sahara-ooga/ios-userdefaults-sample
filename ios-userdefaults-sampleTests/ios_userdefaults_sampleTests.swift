@@ -26,7 +26,8 @@ class ios_userdefaults_sampleTests: XCTestCase {
     func testRemove() {
         userDefaults[.isEverLaunched] = true
         userDefaults.remove(key: .isEverLaunched)
-        XCTAssertNil(userDefaults[.isEverLaunched])
+        let isEverLaunched: Bool? = userDefaults[.isEverLaunched]
+        XCTAssertNil(isEverLaunched)
     }
 }
 extension ios_userdefaults_sampleTests {
